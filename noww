@@ -10,7 +10,6 @@ fi
 if [[ "$EUID" -ne 0 ]]; then
 echo "Sorry, you need to run this as root"
 exit 2
-fi
 
 #else
 	source="https://raw.githubusercontent.com/mappakkoe09/y"
@@ -19,7 +18,6 @@ fi
 cd
 
 
-fi
 rm /root/IP
 #echo "Maaf.. Saat ini belum tersedia update script bos......!!!" | boxes -d boy
 #echo "Update webmin tersedia bos, tp versi webmin 1.820_all.deb..gk apa2 ya boss.." | lolcat
