@@ -35,9 +35,6 @@ echo "
 # go to root
 cd
 
-echo "==========================================="
-echo "            Installasi Dimulai             "
-echo "==========================================="
 
 # disable ipv6
 echo 1 > /proc/sys/net/ipv6/conf/all/disable_ipv6
@@ -383,9 +380,6 @@ service squid3 restart
 service webmin restart
 service pptpd restart
 
-cd
-rm -f /root/.bash_history && history -c
-echo "unset HISTFILE" >> /etc/profile
 
 # info
 clear
