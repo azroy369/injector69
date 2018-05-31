@@ -30,7 +30,7 @@ vps="blangkon";
 #if [[ $vps = "zvur" ]]; then
 	#source="http://"
 #else
-	source="https://raw.githubusercontent.com/SuroDiwiryo/y"
+	source="https://raw.githubusercontent.com/macisvpn/y-1"
 #fi
 
 # go to root
@@ -415,7 +415,7 @@ chmod 0600 /swapfile
 cd
 
 #ovpn
-wget -O ovpn.sh https://raw.githubusercontent.com/macisvpn/injector69/master/installovpn.sh
+wget -O ovpn.sh $source/debian7installovpn.sh
 chmod +x ovpn.sh
 ./ovpn.sh
 rm ./ovpn.sh
